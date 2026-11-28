@@ -755,7 +755,7 @@ const AIPlanner = () => {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs">
                 {generatedPlan.travelTips?.length > 0 && (
                   <div className="p-4 bg-white/5 rounded-2xl border border-white/10">
-                    <h5 className="font-bold text-white mb-2 flex items-center gap-1.5 text-electric-cyan">
+                    <h5 className="font-bold mb-2 flex items-center gap-1.5 text-electric-cyan">
                       <Info size={14} /> Travel Tips
                     </h5>
                     <ul className="space-y-1.5 text-white/70 list-disc list-inside">
@@ -768,7 +768,7 @@ const AIPlanner = () => {
 
                 {generatedPlan.packingRecommendations?.length > 0 && (
                   <div className="p-4 bg-white/5 rounded-2xl border border-white/10">
-                    <h5 className="font-bold text-white mb-2 flex items-center gap-1.5 text-violet">
+                    <h5 className="font-bold mb-2 flex items-center gap-1.5 text-violet">
                       <Luggage size={14} /> Packing Recommendations
                     </h5>
                     <ul className="space-y-1.5 text-white/70 list-disc list-inside">
