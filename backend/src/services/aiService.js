@@ -160,8 +160,8 @@ Return a single valid JSON object strictly complying with this structure:
     return validated;
   } catch (error) {
     if (error instanceof z.ZodError) {
-      console.error('[AI Validation Error]', error.errors);
-      throw new Error(`AI generated response did not pass schema validation: ${error.errors.map(e => e.message).join(', ')}`);
+      console.error('[AI Validation Error]', error.issues);
+      throw new Error(`AI generated response did not pass schema validation: ${error.issues.map(e => e.message).join(', ')}`);
     }
     throw error;
   }
