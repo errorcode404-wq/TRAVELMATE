@@ -272,7 +272,7 @@ This records both existing migrations as applied without changing application da
    - **Build Command**: `npm install && npm run build`
    - **Publish Directory**: `dist`
 3. Add Environment Variables:
-   - `VITE_API_URL`: `https://travelmate-3102.onrender.com/api`
+   - `VITE_API_URL`: `https://travelmate-bn53.onrender.com/api`
    - `VITE_GOOGLE_CLIENT_ID`: *(Same Google OAuth Web client ID)*
 
 ---

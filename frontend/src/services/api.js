@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-let rawApiUrl = import.meta.env.VITE_API_URL || 'https://travelmaterecentbk.onrender.com';
+let rawApiUrl = import.meta.env.VITE_API_URL || 'https://travelmate-bn53.onrender.com';
 if (!rawApiUrl.startsWith('http://') && !rawApiUrl.startsWith('https://')) {
   rawApiUrl = `https://${rawApiUrl}`;
 }
