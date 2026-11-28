@@ -62,6 +62,6 @@ services:
         destination: /index.html
     envVars:
       - key: VITE_API_URL
-        value: https://travelmate-3102.onrender.com/api
+        value: https://travelmaterecentbk.onrender.com/api
       - key: VITE_GOOGLE_CLIENT_ID
         sync: false
